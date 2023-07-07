@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/*Navbar*/
+.navbar {
+  height: 10%;
+}
+
+.NavLink {
+  color: #333333;
+  font-weight: bold;
+  margin: 6px;
+  text-decoration:none;
+  font-family: sans-serif;
+}
+
+.active {
+  color: #000;
+  border: 2px solid black;
+  padding: 5px 2px;
+  border-radius: 2px;
+  font-weight: bold;
+  
+}
+
+.narbar-brand-logo {
+  font-family: cursive;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border: rgb(208, 168, 93);
+  border-radius: 2px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+/*About*/
+.about-left, .about-right, .contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.about-right p {
+  padding: 2.5em;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.hello-initial {
+  font-size: large;
+  font-weight: bold;
+}
+
+/*Footer*/
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    color: black;
+    text-align: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar, .footer {
+   background-color: #f6f6f6;
+   color : #000;
+   font-weight: bold;
+}
+
+/*Projects*/
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  font-family:sans-serif;
 }
