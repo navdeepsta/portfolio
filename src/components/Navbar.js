@@ -12,7 +12,7 @@ export default function Navbar() {
           <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNav" >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink to="/portfolio" className="NavLink" aria-current="page" href="#">About</NavLink>
+                <NavLink to="/portfolio/" className="NavLink" aria-current="page" href="#">About</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="projects" className="NavLink" href="#">Projects</NavLink>
