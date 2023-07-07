@@ -7,7 +7,7 @@ export default function Projects() {
       description: "The app lets you connect with your spotify account and allows you to search for songs, create and save playlist to your account.", 
       technology: "HTML, CSS, JavaScript, React JS, Bootstrap, Github",
       url: "https://navdeepsta.github.io/musicist/",
-      src: "./musicist.png" 
+      src: "./portfolio/musicist.png" 
     
     },
     {
@@ -15,14 +15,14 @@ export default function Projects() {
       description: "You can calculate fortnightly, monthy and yearly house loan repayments with this simple and intuitive app.", 
       technology: "HTML, CSS, JavaScript, React JS, Bootstrap, Github",
       url: "https://navdeepsta.github.io/loan-repayment/",
-      src: "./loanRepayment.png"
+      src: "./portfolio/loanRepayment.png"
     },
     {
       projectName : "Task Planner", 
       description: "This highly responsive and interative app allows a user to create and track the progress of tasks.", 
       technology: "HTML, CSS, JavaScript, Bootstrap, Github",
       url: "https://navdeepsta.github.io/TaskPlanner/",
-      src: "./taskPlanner.png"
+      src: "./portfolio/taskPlanner.png"
     }
   ]
 
